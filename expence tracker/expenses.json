@@ -1,0 +1,26 @@
+[
+    {
+        "amount": 3000.0,
+        "category": "shopping",
+        "description": "shoes",
+        "date": "12-12-2026"
+    },
+    {
+        "amount": 1200.0,
+        "category": "food",
+        "description": "kfc",
+        "date": "12-12-2023"
+    },
+    {
+        "amount": 1290.0,
+        "category": "purchase",
+        "description": "ps5",
+        "date": "12-02-2024"
+    },
+    {
+        "amount": 6700.0,
+        "category": "shoes",
+        "description": "sketchers",
+        "date": "12-02-2025"
+    }
+]

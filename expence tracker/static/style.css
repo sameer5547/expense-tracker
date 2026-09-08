@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #09e4d6;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 25px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+
+body > p {
+    background: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4f46e5;
+}
+
+
+button {
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #3730a3;
+}
+
+
+.expense {
+    background: white;
+    padding: 18px;
+    margin: 12px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+a {
+    text-decoration: none;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
