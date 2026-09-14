@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #09e4d6 0%, #06b6a8 100%);
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 25px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #fc0000;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+    font-size: 22px;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    padding-bottom: 8px;
+}
+
+body > p {
+    background: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+input {
+    padding: 10px 12px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+button {
+    background: #e55346;
+    color: white;
+    border: none;
+    padding: 11px 22px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background: #3730a3;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+.expense {
+    background: white;
+    padding: 18px;
+    margin: 12px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.expense:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    margin-left: 12px;
+    font-weight: 600;
+    color: #4f46e5;
+    transition: color 0.15s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3730a3;
+}
